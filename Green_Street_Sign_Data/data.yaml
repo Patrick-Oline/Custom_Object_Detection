@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['street-signs']
+
+roboflow:
+  workspace: patrick-workspace
+  project: green-street-sign-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/patrick-workspace/green-street-sign-detection/dataset/3
